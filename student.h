@@ -26,8 +26,9 @@ Student studentCreate(char *name, char *number, int grade);
  * 
  * Should use the return value to iterate the array afterwards.
  * 
+ * @param filename [in] the filename of the CSV file containing the student's information
  * @param arr [out] array of students to populate. Must have necessary space.
  * @param arrLength [in] maximum number of students that can be loaded
  * @return int actually number of populated students.
  */
-int loadStudents(Student arr[], int arrLength);
+int loadStudents(char *filename, Student arr[], int arrLength);

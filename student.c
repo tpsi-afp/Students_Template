@@ -14,9 +14,9 @@ Student studentCreate(char *name, char *number, int grade) {
     return student;
 }
 
-int loadStudents(Student arr[], int arrLength) {
+int loadStudents(char *filename, Student arr[], int arrLength) {
 
-    FILE* stream = fopen("students.csv", "r");
+    FILE* stream = fopen(filename, "r");
 
     int count = 0;
     char line[1024];
