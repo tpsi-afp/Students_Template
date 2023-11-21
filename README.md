@@ -2,7 +2,7 @@
 
 This is a C program *template* derived from:
 
-[https://github.com/estsetubal-atad/CProgram_Template](https://github.com/estsetubal-atad/CProgram_Template)
+<https://github.com/tpsi-afp/CProgram>
 
 ## What's different?
 
